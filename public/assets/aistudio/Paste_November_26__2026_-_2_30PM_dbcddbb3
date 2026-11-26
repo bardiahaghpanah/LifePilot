@@ -1,0 +1,1231 @@
+# MASTER PROJECT PROMPT — LIFEPILOT
+## Premium Personal Life Management System | 2027 Edition
+
+Act as an elite product architect, senior full-stack engineer, UI/UX designer, database architect, and software quality assurance engineer.
+
+Your mission is to design and build a complete, production-quality, full-stack personal life management platform named:
+
+# LifePilot
+
+LifePilot is an advanced personal operating system that helps one person manage their entire daily life from a single application.
+
+It must combine personal finance, installment payments, daily tasks, work, projects, university, meetings, appointments, notes, habits, planning, and a complete Persian calendar.
+
+This is not a landing page, dashboard mockup, or static prototype.
+
+Build a real, functional, responsive web application with persistent data, working features, real database operations, and a polished professional interface.
+
+Do not simplify the requested functionality into decorative cards or nonfunctional buttons.
+
+==================================================
+1. PRODUCT IDENTITY AND CORE OBJECTIVE
+==================================================
+
+Product name: LifePilot
+
+Product type: Personal Life Management System.
+
+Primary language: Persian (Farsi).
+
+Writing direction: Native RTL.
+
+Primary calendar: Jalali / Persian calendar.
+
+Primary currencies:
+- Iranian Toman (IRT)
+- United States Dollar (USD)
+
+Primary design direction:
+- 2027 Premium Glassmorphism.
+- Modern SaaS.
+- Advanced minimalism.
+- Professional productivity software.
+- Elegant and sophisticated visual hierarchy.
+
+The application should feel like a premium product developed by a world-class software company.
+
+The application is initially designed for one personal account, but its architecture should support adding multiple workspaces and collaborators in future versions.
+
+==================================================
+2. COMPLETE DESIGN SYSTEM — 2027
+==================================================
+
+Create an advanced, cohesive, premium visual design system.
+
+Visual style:
+- Modern Glassmorphism.
+- Frosted glass panels.
+- Layered translucent surfaces.
+- Sophisticated background blur.
+- Subtle ambient lighting.
+- Soft realistic shadows.
+- Thin translucent borders.
+- Elegant rounded corners.
+- Minimalist professional icons.
+- Beautiful typography.
+- Refined micro-interactions.
+- Clean spacing and consistent proportions.
+
+Color direction:
+- Deep navy blue.
+- Midnight blue.
+- Soft white.
+- Light gray.
+- Warm bronze and champagne gold accents.
+
+Support three appearance modes:
+
+1. Light mode.
+2. Dark mode.
+3. System adaptive mode.
+
+Implement adjustable glass intensity.
+
+Allow customization of:
+- Primary accent color.
+- Secondary accent color.
+- Background.
+- Card transparency.
+- Blur intensity.
+- Border opacity.
+- Corner radius.
+- Shadow intensity.
+
+Avoid excessive gradients, neon effects, visual clutter, and low-contrast glass surfaces.
+
+Readability must always take priority over decorative effects.
+
+Create reusable design tokens and components.
+
+==================================================
+3. FIVE PERSIAN FONT FAMILIES
+==================================================
+
+Create a complete font management system with exactly five selectable Persian font families:
+
+1. Vazirmatn — وزیرمتن
+2. IRANYekanX — ایران یکان
+3. Estedad — استعداد
+4. Shabnam — شبنم
+5. Sahel — ساحل
+
+Requirements:
+- Show font previews.
+- Allow instant font switching.
+- Apply the selected font globally.
+- Save font preference persistently.
+- Ensure consistent font usage throughout every module.
+- Support Persian and Latin characters.
+- Support appropriate fallback fonts.
+- Include legitimate, properly licensed font files.
+
+All headings, navigation, buttons, forms, tables, financial values, calendar elements, reports and settings must respect the selected font.
+
+Include small, medium and large font size options.
+
+==================================================
+4. APPLICATION ARCHITECTURE AND NAVIGATION
+==================================================
+
+Create a professional right-side navigation sidebar.
+
+Main modules:
+
+1. Dashboard.
+2. Jalali Calendar.
+3. Financial Management.
+4. Installments and Debts.
+5. Tasks and To-Do.
+6. Work and Projects.
+7. University.
+8. Meetings and Appointments.
+9. Personal Notes.
+10. Habit Tracker.
+11. Smart Daily Planner.
+12. Global Search.
+13. Activity History.
+14. Notification Center.
+15. Reports and Analytics.
+16. Settings.
+
+Use a collapsible desktop sidebar.
+
+Use mobile-friendly navigation on smaller screens.
+
+Provide global quick actions accessible from every major page.
+
+Implement keyboard shortcuts, including Ctrl+K for global search.
+
+==================================================
+5. CENTRAL DASHBOARD
+==================================================
+
+Build a personalized dashboard that provides a complete overview of the user's day.
+
+Dashboard components:
+
+- Persian date.
+- Current time.
+- Personalized greeting.
+- Today's agenda.
+- Upcoming appointments.
+- Today's tasks.
+- Pending installments.
+- Overdue payments.
+- Upcoming deadlines.
+- University schedule.
+- Project progress.
+- Habit completion.
+- Recent notes.
+- Recent activities.
+- Financial summary.
+- Current manually entered USD rate.
+
+Include customizable dashboard widgets.
+
+Allow users to:
+- Show and hide widgets.
+- Reorder widgets.
+- Choose dashboard layout.
+- Configure quick actions.
+
+All statistics must be calculated from actual database records.
+
+Never use fake numbers in the production dashboard.
+
+Provide beautiful charts and useful summaries.
+
+==================================================
+6. COMPLETE JALALI CALENDAR
+==================================================
+
+The Persian calendar is one of the most important parts of LifePilot.
+
+Build a genuinely professional and fully functional Jalali calendar.
+
+Use a reliable Jalali date library.
+
+Do not implement inaccurate manual date conversion.
+
+Support:
+
+- Monthly view.
+- Weekly view.
+- Daily view.
+- Agenda/list view.
+- Yearly overview.
+
+Calendar requirements:
+
+- Correct Persian month names.
+- Accurate Persian years.
+- Correct 29, 30 and 31-day month handling.
+- Correct leap year calculations.
+- Accurate Esfand handling.
+- Gregorian/Jalali conversion.
+- Today indicator.
+- Previous and next month navigation.
+- Quick date navigation.
+- Configurable week start.
+- Optional week numbers.
+- Persian numeral support.
+- Time zone support.
+
+Create a complete event management system.
+
+Every event should support:
+
+- Title.
+- Description.
+- Category.
+- Start date.
+- End date.
+- Start time.
+- End time.
+- All-day status.
+- Location.
+- Participants.
+- Priority.
+- Custom color.
+- Multiple reminders.
+- Recurrence rules.
+- Notes.
+- Optional attachments.
+
+Support:
+- Daily recurring events.
+- Weekly recurring events.
+- Monthly recurring events.
+- Yearly recurring events.
+- Custom repetition intervals.
+- Recurrence end dates.
+- Editing a single occurrence or the entire recurring series.
+
+Advanced calendar functionality:
+
+- Drag and drop events.
+- Resize scheduled events where supported.
+- Conflict detection.
+- Overlapping event indicators.
+- Search.
+- Advanced filters.
+- Event details popovers.
+- Quick event creation.
+- Mobile touch interactions.
+
+Calendar categories:
+
+- Work.
+- University.
+- Meetings.
+- Personal.
+- Installments.
+- Tasks.
+- Projects.
+- Exams.
+- Appointments.
+
+Each category must have a distinct, harmonious color.
+
+HOLIDAY SUPPORT:
+
+Display official Iranian holidays and national occasions using a maintained and verifiable data source.
+
+Allow custom holidays and personal occasions.
+
+Distinguish official holidays from user-created events.
+
+FULL APPLICATION INTEGRATION:
+
+Automatically display linked records from:
+
+- Installments.
+- Tasks.
+- Projects.
+- Meetings.
+- University classes.
+- Exams.
+- Assignments.
+- Appointments.
+- Habits when relevant.
+
+Calendar entries must reference their original records.
+
+Do not create disconnected duplicates.
+
+When an original task, meeting or installment changes, update its calendar representation.
+
+Never mark a financial installment as paid simply because its due date has passed.
+
+==================================================
+7. FINANCIAL MANAGEMENT
+==================================================
+
+Build a comprehensive personal finance management module.
+
+Subsections:
+
+- Financial dashboard.
+- Installments.
+- Debts.
+- Payments.
+- Income.
+- Expenses.
+- Transactions.
+- Financial reports.
+- Exchange rate management.
+
+Every financial record must support:
+
+- Title.
+- Description.
+- Amount.
+- Currency.
+- Date.
+- Category.
+- Payment status.
+- Optional notes.
+- Optional attachment.
+
+Support two currencies:
+
+1. Iranian Toman (IRT).
+2. United States Dollar (USD).
+
+The user must be able to select the default currency in settings.
+
+Allow choosing a separate currency for each financial record.
+
+Never mix currencies in calculations without explicit conversion.
+
+==================================================
+8. INSTALLMENT MANAGEMENT
+==================================================
+
+Build a complete installment tracking system.
+
+Each installment must support:
+
+- Title.
+- Creditor or company.
+- Original amount.
+- Currency.
+- Number of installments.
+- Payment amount.
+- Payment frequency.
+- First payment date.
+- Individual due dates.
+- Remaining balance.
+- Payment status.
+- Notes.
+- Optional documents.
+
+Automatically generate payment schedules.
+
+Allow:
+- Marking an installment as paid.
+- Recording actual payment date.
+- Partial payments.
+- Payment history.
+- Editing schedules.
+- Viewing upcoming installments.
+- Viewing overdue installments.
+- Viewing remaining debt.
+
+Never mark payments as completed automatically.
+
+Each payment must have a unique record.
+
+Prevent duplicate payments.
+
+All due dates must appear in the Jalali calendar.
+
+==================================================
+9. MANUAL USD EXCHANGE RATE MANAGEMENT
+==================================================
+
+Implement a completely manual USD to Toman exchange rate system.
+
+The user must enter the current exchange rate personally.
+
+Example:
+
+1 USD = 270,000 Toman.
+
+Never fetch exchange rates automatically.
+
+Never use external exchange rate APIs.
+
+Never assume market rates.
+
+Settings must include:
+
+- Current USD rate.
+- New rate input.
+- Save rate button.
+- Effective date and time.
+- Rate history.
+- Previous rates.
+- Optional notes.
+
+Every rate change must create a new historical record.
+
+Conversion formulas:
+
+USD to IRT:
+USD amount multiplied by the selected rate.
+
+IRT to USD:
+Toman amount divided by the selected rate.
+
+Historical accuracy is mandatory:
+
+- Preserve original transaction amount.
+- Preserve original currency.
+- Store the exchange rate used for each historical conversion.
+- Preserve historical conversion results.
+- Never recalculate old transactions using a new rate.
+- Allow selecting current, historical or manually entered rate for new conversions.
+
+Financial dashboard must show:
+- USD balance.
+- Toman balance.
+- Estimated combined value in Toman.
+- Current USD rate.
+- Last rate update.
+
+Clearly distinguish estimated converted values from original balances.
+
+==================================================
+10. TASK MANAGEMENT
+==================================================
+
+Build a professional task manager.
+
+Each task must support:
+
+- Title.
+- Description.
+- Category.
+- Priority.
+- Start date.
+- Deadline.
+- Estimated duration.
+- Actual duration.
+- Status.
+- Reminder.
+- Notes.
+- Linked project.
+- Linked calendar event.
+
+Task statuses:
+
+- Pending.
+- In progress.
+- Completed.
+- Cancelled.
+
+Categories:
+
+- Work.
+- University.
+- Personal.
+- Projects.
+- Other.
+
+Views:
+
+- Today.
+- Upcoming.
+- Overdue.
+- Completed.
+- Weekly.
+- All tasks.
+
+Support:
+- Search.
+- Filters.
+- Sorting.
+- Priority indicators.
+- Quick completion.
+- Calendar synchronization.
+
+==================================================
+11. WORK AND PROJECT MANAGEMENT
+==================================================
+
+Create a project management module.
+
+Features:
+
+- Create projects.
+- Project description.
+- Start and end dates.
+- Project priority.
+- Project status.
+- Milestones.
+- Tasks within projects.
+- Progress percentage.
+- Notes.
+- Attachments.
+- Project timeline.
+
+Provide project list and detailed views.
+
+Show project deadlines in the Jalali calendar.
+
+Calculate progress from actual completed tasks where appropriate.
+
+==================================================
+12. UNIVERSITY MANAGEMENT
+==================================================
+
+Create a dedicated university module.
+
+Features:
+
+- Courses.
+- Class schedules.
+- Professors.
+- Course notes.
+- Assignments.
+- Examinations.
+- Project submissions.
+- Study sessions.
+- Academic deadlines.
+
+Support recurring weekly class schedules.
+
+Display all academic events in the central Jalali calendar.
+
+Provide academic progress summaries.
+
+==================================================
+13. MEETINGS AND APPOINTMENTS
+==================================================
+
+Create a dedicated meetings module.
+
+Each meeting must support:
+
+- Title.
+- Description.
+- Date.
+- Start time.
+- End time.
+- Location.
+- Online meeting link.
+- Participants.
+- Reminder.
+- Meeting status.
+- Related project.
+- Meeting notes.
+
+Display meetings in the dashboard and calendar.
+
+Support meeting preparation notes and follow-up tasks.
+
+==================================================
+14. PERSONAL NOTES AND NOTEBOOK
+==================================================
+
+Build a professional personal notebook.
+
+Features:
+
+- Unlimited notes.
+- Rich text editor.
+- Formatting.
+- Headings.
+- Bulleted lists.
+- Numbered lists.
+- Checklists.
+- Tags.
+- Categories.
+- Favorites.
+- Pinned notes.
+- Archive.
+- Search.
+- Recently edited notes.
+- Automatic saving.
+- Created and modified timestamps.
+
+Allow linking notes to:
+- Meetings.
+- Tasks.
+- Projects.
+- University courses.
+- Calendar events.
+
+Provide grid and list views.
+
+Prevent data loss during editing.
+
+==================================================
+15. HABIT TRACKER
+==================================================
+
+Build a complete habit management module.
+
+Features:
+
+- Create custom habits.
+- Daily schedules.
+- Weekly schedules.
+- Custom frequency.
+- Target counts.
+- Reminders.
+- Completion tracking.
+- Daily progress.
+- Weekly reports.
+- Monthly reports.
+- Completion percentage.
+- Current streak.
+- Longest streak.
+- Calendar heatmap.
+
+Allow editing, pausing and archiving habits.
+
+Calculate streaks correctly.
+
+Do not count unscheduled days as missed days.
+
+Allow correcting accidental completion records.
+
+Display relevant habit information on the dashboard.
+
+==================================================
+16. SMART DAILY PLANNER
+==================================================
+
+Create an intelligent daily planning module.
+
+The planner must use actual user data from:
+
+- Tasks.
+- Projects.
+- Meetings.
+- University classes.
+- Calendar events.
+- Deadlines.
+- Habits.
+- Personal appointments.
+
+Features:
+
+- Daily planning.
+- Weekly planning.
+- Time blocking.
+- Available time detection.
+- Priority-based scheduling.
+- Deadline awareness.
+- Conflict detection.
+- Suggested task scheduling.
+- Estimated duration.
+- Rescheduling suggestions.
+- Daily progress.
+- End-of-day review.
+
+Allow the user to approve, edit or reject all proposed schedules.
+
+Never move existing meetings, appointments or payment deadlines automatically.
+
+If AI assistance is implemented, use real user data with appropriate access controls.
+
+Never fabricate user schedules or claim an event has been scheduled unless the database confirms it.
+
+==================================================
+17. GLOBAL SEARCH
+==================================================
+
+Create a universal search system.
+
+Include Ctrl+K shortcut on desktop.
+
+Search across:
+
+- Tasks.
+- Installments.
+- Payments.
+- Transactions.
+- Projects.
+- Notes.
+- Meetings.
+- Courses.
+- Assignments.
+- Calendar events.
+- Habits.
+
+Features:
+
+- Live suggestions.
+- Grouped search results.
+- Search history.
+- Recent records.
+- Date filtering.
+- Category filtering.
+- Status filtering.
+- Highlighted matches.
+- Direct navigation to original records.
+
+Implement a beautiful command palette interface.
+
+Respect authentication and user access permissions.
+
+==================================================
+18. ACTIVITY HISTORY AND AUDIT LOG
+==================================================
+
+Create a comprehensive activity history module.
+
+Record important actions throughout the application.
+
+Examples:
+
+- Installment created.
+- Payment recorded.
+- Payment edited.
+- Task completed.
+- Task deadline changed.
+- Meeting scheduled.
+- Calendar event moved.
+- Note edited.
+- Habit completed.
+- Exchange rate updated.
+- Settings changed.
+
+Each activity record must contain:
+
+- User ID.
+- Action type.
+- Entity type.
+- Entity ID.
+- Timestamp.
+- Previous value where applicable.
+- New value where applicable.
+- Human-readable description.
+
+Display activities in a chronological timeline.
+
+Support:
+- Today.
+- Yesterday.
+- Older activity.
+- Search.
+- Date filters.
+- Module filters.
+- Detailed change history.
+
+Financial activity records must be reliable and auditable.
+
+Prevent ordinary users from modifying historical audit records.
+
+Never store passwords, tokens or secrets in activity logs.
+
+==================================================
+19. NOTIFICATION AND REMINDER CENTER
+==================================================
+
+Build a complete notification system.
+
+Support reminders for:
+
+- Installments.
+- Payments.
+- Tasks.
+- Meetings.
+- University exams.
+- Assignments.
+- Calendar events.
+- Habits.
+
+Allow multiple reminder intervals.
+
+Examples:
+- At the event time.
+- 15 minutes before.
+- 1 hour before.
+- 1 day before.
+- 3 days before.
+- 1 week before.
+- Custom time.
+
+Include:
+
+- In-app notifications.
+- Unread counter.
+- Notification history.
+- Browser push notifications.
+- Notification preferences.
+- Notification sound preferences.
+- Mark as read.
+- Mark all as read.
+
+Implement reliable server-side scheduling and push notifications where supported.
+
+Do not rely only on an active browser tab for scheduled reminders.
+
+Prevent duplicate notifications.
+
+==================================================
+20. REPORTS AND ANALYTICS
+==================================================
+
+Create an advanced reporting module.
+
+Financial reports:
+
+- Monthly income.
+- Monthly expenses.
+- Installment payments.
+- Remaining debt.
+- Currency breakdown.
+- Historical USD conversions.
+- Spending categories.
+
+Productivity reports:
+
+- Tasks completed.
+- Overdue tasks.
+- Project progress.
+- Habit completion.
+- Time spent.
+- Weekly productivity.
+- Monthly performance.
+
+Allow date range filtering.
+
+Provide clear, attractive charts.
+
+Support PDF and Excel export where practical.
+
+==================================================
+21. COMPLETE SETTINGS CENTER
+==================================================
+
+Create a comprehensive settings center.
+
+Sections:
+
+APPEARANCE:
+- Light mode.
+- Dark mode.
+- System mode.
+- Glass intensity.
+- Accent colors.
+- Card transparency.
+- Font family.
+- Font size.
+- Layout density.
+- Animation settings.
+
+TYPOGRAPHY:
+- Vazirmatn.
+- IRANYekanX.
+- Estedad.
+- Shabnam.
+- Sahel.
+
+LANGUAGE AND LOCALIZATION:
+- Persian interface.
+- RTL.
+- Persian or English numerals.
+- Jalali calendar.
+- Week start.
+- Date format.
+- Time zone.
+
+CALENDAR:
+- Default view.
+- Holidays.
+- Event colors.
+- Reminder defaults.
+- Week numbers.
+- Category visibility.
+
+FINANCIAL:
+- Default currency.
+- USD/IRT exchange rate.
+- Rate history.
+- Number formatting.
+- Financial preferences.
+
+NOTIFICATIONS:
+- Notification permissions.
+- Reminder preferences.
+- Sound.
+- Notification categories.
+
+DASHBOARD:
+- Widget visibility.
+- Widget order.
+- Quick actions.
+- Default landing page.
+
+PRIVACY AND SECURITY:
+- Account settings.
+- Session management.
+- Optional application lock.
+- Data privacy.
+
+DATA MANAGEMENT:
+- Export.
+- Backup.
+- Restore.
+- Import.
+- Data deletion.
+
+ACCESSIBILITY:
+- Reduced motion.
+- High contrast.
+- Keyboard navigation.
+- Readable typography.
+- Screen reader labels.
+
+Every setting must actually work and persist.
+
+==================================================
+22. QUICK ACTIONS
+==================================================
+
+Create a global quick action system.
+
+From any main application page, users should be able to quickly:
+
+- Add a task.
+- Add an installment.
+- Record a payment.
+- Add an expense.
+- Add income.
+- Create a meeting.
+- Create a calendar event.
+- Write a note.
+- Add a habit.
+- Create a project.
+
+Use a beautiful floating action button or command menu.
+
+==================================================
+23. DATABASE AND BACKEND ARCHITECTURE
+==================================================
+
+Use:
+
+- React.
+- TypeScript.
+- Firebase Authentication.
+- Cloud Firestore.
+- Node.js backend where appropriate.
+- Reliable Jalali date library.
+- Responsive modern CSS.
+- Reusable components.
+
+Use Firebase Google Sign-In.
+
+Implement secure user-specific records.
+
+Suggested data collections:
+
+users
+user_settings
+financial_transactions
+installments
+installment_payments
+exchange_rates
+tasks
+projects
+project_milestones
+university_courses
+university_schedules
+assignments
+meetings
+calendar_events
+notes
+habits
+habit_logs
+notifications
+activity_logs
+
+Use proper database relationships.
+
+Implement Firestore Security Rules.
+
+Never expose private API keys or secrets.
+
+Use backend functions for sensitive operations and reliable notification scheduling.
+
+Use consistent timestamps and time zone handling.
+
+Avoid unnecessary duplication of linked records.
+
+Implement pagination and efficient queries.
+
+==================================================
+24. DATA SAFETY AND RELIABILITY
+==================================================
+
+Mandatory requirements:
+
+- Persistent database storage.
+- No fake production data.
+- No accidental data deletion.
+- Confirmation before destructive actions.
+- Backup and restore.
+- Error handling.
+- Loading states.
+- Empty states.
+- Form validation.
+- Duplicate prevention.
+- Offline-aware behavior where supported.
+- Safe synchronization.
+- Audit logging.
+
+Do not lose existing information during updates.
+
+All financial calculations must be accurate.
+
+All Jalali date operations must be tested.
+
+==================================================
+25. RESPONSIVE DESIGN
+==================================================
+
+Create a fully responsive mobile-first interface.
+
+Test these viewport widths:
+
+360px
+390px
+430px
+768px
+1024px
+1440px
+1920px
+
+Desktop:
+- Full professional dashboard.
+- Right-side collapsible sidebar.
+- Advanced calendar.
+- Multi-column cards.
+
+Tablet:
+- Adaptive navigation.
+- Optimized grids.
+- Responsive calendar.
+
+Mobile:
+- Touch-friendly controls.
+- Compact navigation.
+- Mobile-friendly bottom navigation.
+- Stacked cards.
+- Full-width forms.
+- Easy calendar navigation.
+- No horizontal overflow.
+
+The experience must be excellent on every device.
+
+==================================================
+26. TRUE PERSIAN RTL
+==================================================
+
+Implement real native RTL throughout the entire application.
+
+Requirements:
+
+- Set dir="rtl" at the application root.
+- Correct right-side navigation.
+- Correct layout direction.
+- Correct form alignment.
+- Proper Persian typography.
+- Correct icon placement.
+- Correct calendar navigation.
+- Correct table layout.
+- Correct modal alignment.
+- Correct mixed Persian and English text.
+- Proper localized currency formatting.
+
+Use CSS logical properties rather than hardcoded left/right assumptions.
+
+Do not merely right-align text while leaving the underlying layout in LTR.
+
+==================================================
+27. QUALITY ASSURANCE AND TESTING
+==================================================
+
+Do not consider the application finished after rendering the first dashboard.
+
+Test all modules.
+
+Critical tests:
+
+- Jalali leap years.
+- Esfand date handling.
+- Gregorian/Jalali conversion.
+- Recurring events.
+- Time zones.
+- USD/IRT conversion.
+- Historical exchange rates.
+- Installment schedules.
+- Partial payments.
+- Calendar synchronization.
+- Notification scheduling.
+- Task completion.
+- Habit streaks.
+- Search.
+- Activity logging.
+- Authentication.
+- Firestore Security Rules.
+- Data persistence.
+- Mobile responsiveness.
+- Font switching.
+- Theme switching.
+- Backup and restore.
+
+Fix all build errors and major functional problems.
+
+==================================================
+28. DEVELOPMENT STRATEGY
+==================================================
+
+Build the complete application systematically.
+
+PHASE 1:
+- Project architecture.
+- Design system.
+- Authentication.
+- Firebase connection.
+- Database schema.
+- RTL foundations.
+- Font system.
+- Theme settings.
+
+PHASE 2:
+- Main dashboard.
+- Jalali calendar.
+- Financial system.
+- Installment manager.
+- Manual USD exchange rate.
+
+PHASE 3:
+- Tasks.
+- Projects.
+- University.
+- Meetings.
+- Notes.
+- Habit tracker.
+
+PHASE 4:
+- Smart daily planner.
+- Global search.
+- Activity history.
+- Notification center.
+
+PHASE 5:
+- Reports.
+- Settings.
+- Backup and restore.
+- Responsive optimization.
+- Security and QA.
+
+Implement real functionality at every phase.
+
+Do not leave essential modules as placeholders.
+
+If a feature requires Firebase configuration or external credentials, create the integration structure and clearly identify the required configuration instead of pretending it is already connected.
+
+==================================================
+29. FINAL PRODUCT REQUIREMENTS
+==================================================
+
+The final LifePilot application must be:
+
+- Fully Persian.
+- Completely RTL.
+- Premium 2027 glassmorphism.
+- Responsive on all devices.
+- Built with five selectable Persian fonts.
+- Equipped with a complete Jalali calendar.
+- Equipped with USD and IRT financial management.
+- Equipped with manually managed USD exchange rates.
+- Equipped with installment tracking.
+- Equipped with task and project management.
+- Equipped with university management.
+- Equipped with meetings.
+- Equipped with notes.
+- Equipped with habit tracking.
+- Equipped with smart daily planning.
+- Equipped with universal search.
+- Equipped with activity history.
+- Equipped with reliable notifications.
+- Equipped with advanced settings.
+- Connected to persistent Firebase storage.
+
+The result must be a genuinely usable personal operating system, not a decorative prototype.
+
+Start by inspecting the available project environment and creating the complete application architecture.
+
+Then implement the application systematically, test every important workflow, and deliver the best working version possible.
+
+Do not stop after creating a static UI.
+
+Build LifePilot as a complete product.

@@ -1,0 +1,6 @@
+{
+  "name": "LifePilot",
+  "description": "سیستم جامع مدیریت زندگی شخصی به زبان فارسی با تقویم جلالی، مدیریت مالی و اقساط، وظایف، پروژه‌ها، دانشگاه، جلسات، یادداشت‌ها و عادت‌ها با ذخیره‌سازی محلی Room",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

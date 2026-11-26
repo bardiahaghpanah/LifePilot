@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LifePilot</string>
+    <string name="app_subtitle">سیستم جامع مدیریت زندگی شخصی</string>
+    <string name="nav_dashboard">داشبورد</string>
+    <string name="nav_calendar">تقویم جلالی</string>
+    <string name="nav_finance">مدیریت مالی</string>
+    <string name="nav_installments">اقساط و بدهی</string>
+    <string name="nav_tasks">وظایف و کارها</string>
+    <string name="nav_projects">کار و پروژه‌ها</string>
+    <string name="nav_university">دانشگاه</string>
+    <string name="nav_meetings">جلسات و قرارها</string>
+    <string name="nav_notes">یادداشت‌ها</string>
+    <string name="nav_habits">عادت‌ها</string>
+    <string name="nav_planner">برنامه‌ریز هوشمند</string>
+    <string name="nav_search">جستجوی سراسری</string>
+    <string name="nav_activity">تاریخچه فعالیت‌ها</string>
+    <string name="nav_notifications">مرکز اعلان‌ها</string>
+    <string name="nav_reports">گزارش‌ها و تحلیل</string>
+    <string name="nav_settings">تنظیمات</string>
+    <string name="action_quick_add">افزودن سریع</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_confirm">تایید</string>
+    <string name="privacy_local_only">تمام اطلاعات به صورت محلی و رمزنگاری‌شده روی دستگاه ذخیره می‌شوند.</string>
+</resources>
